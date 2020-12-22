@@ -1,0 +1,210 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "nivel": 0,
+            "nombre": "ADMISION",
+            "padre": 0,
+            "accion": "/admision",
+            "icono": "home-outline",
+            "estado": true,
+            "children": [
+                {
+                    "id": 2,
+                    "nivel": 1,
+                    "nombre": "PACIENTES",
+                    "padre": 1,
+                    "accion": "/admision/pacientes",
+                    "icono": "",
+                    "estado": true,
+                    "children": [
+                        {
+                            "id": 3,
+                            "nivel": 2,
+                            "nombre": "ACREDITACION",
+                            "padre": 2,
+                            "accion": "/admision/pacientes/acreditacion",
+                            "icono": "",
+                            "estado": true,
+                            "children": []
+                        },
+                        {
+                            "id": 4,
+                            "nivel": 2,
+                            "nombre": "ADMISION",
+                            "padre": 2,
+                            "accion": "/admision/pacientes/admision",
+                            "icono": "",
+                            "estado": true,
+                            "children": []
+                        },
+                        {
+                            "id": 5,
+                            "nivel": 2,
+                            "nombre": "HISTORIA CLINICA",
+                            "padre": 2,
+                            "accion": "/admision/pacientes/historiaclinica",
+                            "icono": "",
+                            "estado": true,
+                            "children": []
+                        },
+                        {
+                            "id": 6,
+                            "nivel": 2,
+                            "nombre": "CONSULTA ATENCIONES",
+                            "padre": 2,
+                            "accion": "/admision/pacientes/consultaatencion",
+                            "icono": "",
+                            "estado": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "nivel": 1,
+                    "nombre": "CITAS",
+                    "padre": 1,
+                    "accion": "/admision/citas",
+                    "icono": "edit",
+                    "estado": true,
+                    "children": [
+                        {
+                            "id": 8,
+                            "nivel": 2,
+                            "nombre": "PROGRAMACION",
+                            "padre": 7,
+                            "accion": "/admision/citas/programacion",
+                            "icono": "",
+                            "estado": true,
+                            "children": []
+                        },
+                        {
+                            "id": 9,
+                            "nivel": 2,
+                            "nombre": "AGENDA MEDICA",
+                            "padre": 7,
+                            "accion": "/admision/citas/agendamedica",
+                            "icono": "",
+                            "estado": true,
+                            "children": []
+                        },
+                        {
+                            "id": 10,
+                            "nivel": 2,
+                            "nombre": "PACIENTES CITADOS",
+                            "padre": 7,
+                            "accion": "/admision/citas/pacientescitados",
+                            "icono": "",
+                            "estado": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "nivel": 1,
+                    "nombre": "FICHEROS",
+                    "padre": 1,
+                    "accion": "/admision/ficheros",
+                    "icono": "paper-plane",
+                    "estado": true,
+                    "children": [
+                        {
+                            "id": 12,
+                            "nivel": 2,
+                            "nombre": "ESPECIALIDADES",
+                            "padre": 11,
+                            "accion": "/admision/ficheros/especialidades",
+                            "icono": "",
+                            "estado": true,
+                            "children": []
+                        },
+                        {
+                            "id": 13,
+                            "nivel": 2,
+                            "nombre": "MEDICOS",
+                            "padre": 11,
+                            "accion": "/admision/ficheros/medicos",
+                            "icono": "",
+                            "estado": true,
+                            "children": []
+                        },
+                        {
+                            "id": 14,
+                            "nivel": 2,
+                            "nombre": "TURNOS",
+                            "padre": 11,
+                            "accion": "/admision/ficheros/turnos",
+                            "icono": "",
+                            "estado": true,
+                            "children": []
+                        },
+                        {
+                            "id": 15,
+                            "nivel": 2,
+                            "nombre": "CONSULTORIOS",
+                            "padre": 11,
+                            "accion": "/admision/ficheros/consultorios",
+                            "icono": "",
+                            "estado": true,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "nivel": 0,
+            "nombre": "SEGURIDAD",
+            "padre": 0,
+            "accion": "/seguridad",
+            "icono": "keypad",
+            "estado": true,
+            "children": [
+                {
+                    "id": 17,
+                    "nivel": 1,
+                    "nombre": "FICHEROS",
+                    "padre": 16,
+                    "accion": "/seguridad/ficheros",
+                    "icono": "paper-plane",
+                    "estado": true,
+                    "children": [
+                        {
+                            "id": 18,
+                            "nivel": 2,
+                            "nombre": "USUARIOS",
+                            "padre": 17,
+                            "accion": "/seguridad/ficheros/usuarios",
+                            "icono": "person-add-outline",
+                            "estado": true,
+                            "children": []
+                        },
+                        {
+                            "id": 19,
+                            "nivel": 2,
+                            "nombre": "PERFILES",
+                            "padre": 17,
+                            "accion": "/seguridad/ficheros/perfiles",
+                            "icono": "people-outline",
+                            "estado": true,
+                            "children": []
+                        },
+                        {
+                            "id": 20,
+                            "nivel": 2,
+                            "nombre": "MODULOS",
+                            "padre": 17,
+                            "accion": "/seguridad/ficheros/modulos",
+                            "icono": "cube-outline",
+                            "estado": true,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
