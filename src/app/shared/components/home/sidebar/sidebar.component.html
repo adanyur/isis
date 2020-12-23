@@ -1,0 +1,11 @@
+<h1>MENU SIDEBAR</h1>
+<ul *ngFor="let menu of menus$ | async">
+    <li>{{menu.nombre}}</li>
+    <ul *ngFor="let submenu of menu.children">
+        <li>{{submenu.nombre}}</li>
+        <ul *ngFor="let subsubmenu of submenu.children">
+            <li><a routerLink={{subsubmenu.accion}}>{{subsubmenu.nombre}}</a></li>
+        </ul>
+    </ul>
+</ul>
+<!-- <a [routerLink]="['../admision/pacientes-citados']">pacientes citados</a> -->

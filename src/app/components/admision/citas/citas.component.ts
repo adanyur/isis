@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-citas',
-  templateUrl: './citas.component.html',
-  styleUrls: ['./citas.component.css']
+  template: `<router-outlet></router-outlet>`,
+  styleUrls: [],
 })
 export class CitasComponent implements OnInit {
 

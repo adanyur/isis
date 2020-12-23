@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CitasComponent } from './citas/citas/citas.component'
-import { PacientecitadosComponent } from './citas/pacientescitados/pacientecitados.component';
+
+import { HomeComponent } from '../../shared/components/home/home.component'
 
 const routes: Routes = [
   {
-    path:'',component: CitasComponent,
+    path: '', 
+    component:HomeComponent,
     children:[{
-      path:'',
-        children:[{
-          path:'pacientes-citados',component:PacientecitadosComponent
-        }]
+      path:'citas',
+      loadChildren:()=> import('./citas/citas.module').then(m=>m.CitasModule)
     }]
+
   }
 ];
 

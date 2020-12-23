@@ -2,19 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { AmisionRoutingModule } from './amision-routing.module';
-
-import { AgendamedicaComponent } from './citas/agendamedica/agendamedica.component';
-import { PacientecitadosComponent } from './citas/pacientescitados/pacientecitados.component'
-import { ProgramacionComponent } from './citas/programacion/programacion.component';
-import { CitasComponent } from './citas/citas/citas.component';
-
-
+import { HomeModule } from '../../shared/components/home.module'
 
 @NgModule({
-  declarations: [AgendamedicaComponent,PacientecitadosComponent,ProgramacionComponent, CitasComponent],
+  declarations: [],
   imports: [
     CommonModule,
-    AmisionRoutingModule
+    AmisionRoutingModule,
+    HomeModule
   ]
 })
 export class AmisionModule { }

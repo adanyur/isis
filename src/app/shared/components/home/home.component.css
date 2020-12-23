@@ -1,0 +1,13 @@
+.column {
+  display: flex;
+}
+
+.container-menu {
+  background-color: rgba(255, 168, 168);
+  max-width: 25%;
+}
+
+.container-layaout {
+  background-color: rgba(187, 221, 255);
+  width: 100%;
+}
